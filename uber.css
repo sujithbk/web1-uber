@@ -1,0 +1,1408 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.header{
+    width: 100%;
+    height: 64px;
+    background: black;
+    display: flex;
+}
+body{
+    margin: 0;
+}
+.logo{
+    width: 11%;
+    height: 64px;
+    
+   position: relative;
+}
+.logo-text{
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-seri;
+    position: absolute;
+    top: 19px;
+    left: 70px;
+    color: #fff;
+
+}
+.content{
+    width: 50%;
+    height: 64px;
+    
+
+}
+.text1{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.position1{
+    padding-left: 20px;
+   
+    font-family: Helvetica, Arial, sans-seri;
+    color: #fff;
+    font-size: 17px;
+}
+.text2{
+    list-style: none;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.position2{
+    padding-left: 20px;
+    bottom: 30px;
+    font-family: Helvetica, Arial, sans-seri;
+    color: #fff
+}
+.content2 button{
+    width: 40%;
+    height: 64px;
+    cursor: pointer;
+    
+    
+}
+.secondphase{
+     height: 670px;
+     width: 100%;
+    background-image: url("https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_1895,h_966/v1613521692/assets/d9/ce6c00-32b0-4b93-9f0d-6f927d93da08/original/Rider_Home_bg_desktop2x.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.smallwindow{
+    width: 567px;
+    height: 516px;
+    background:#fff;
+    margin-left: 64px;
+    position: absolute;
+    margin-top: 64px;
+    
+}
+.small{
+ width: 567px;
+ height: 121px;
+ /*background: red;*/
+ display: flex;
+}
+.S1{
+    width: 50%;
+    height: 100%;
+   /* background: yellow;*/
+}
+.M{
+    width: 81px;
+    height: 72px;
+   /* background: grey;*/
+    margin-left: 101px;
+    margin-top: 28px
+}
+.m1{
+    width: 81px;
+    height: 32px;
+   /* background: burlywood;*/
+
+}
+.m1 i{
+    margin-left: 30px;
+    transform: scale(1.4);
+    margin-top: 10px;
+}
+.m2{
+    width: 81px;
+    height: 40px;
+    /*background:#fff ;*/
+    text-align: center;
+    padding-top: 15px;
+}
+.m2 a{
+    font-size: 16px;
+}
+.S2{
+    width: 50%;
+    height: 100%;
+   /* background: green;*/
+    
+}
+.P{
+    width: 81px;
+    height: 72px;
+   /* background: rgb(242, 11, 11);*/
+    margin-left: 101px;
+    margin-top: 28px
+}
+.p1{
+    width: 81px;
+    height: 32px;
+   /* background: rgb(234, 138, 11);*/
+}
+.p1 i{
+    margin-left: 30px;
+    transform: scale(1.4);
+    margin-top: 10px;
+}
+.p2{
+    width: 81px;
+    height: 40px;
+   /* background:#fff;*/
+    text-align: center;
+    padding-top: 0px;
+} 
+.p2 p{
+    font-size: 14px;
+}
+.large{
+    width: 567px;
+    height: 395px;
+    /*background: black;*/
+}
+.L1{
+    width:471px;
+    height:64px;
+    /*background: blue;*/
+    margin-left: 48px;
+    margin-top: 48px;
+    position: absolute;
+}
+.L1 a{
+   font-size: 56px;
+   color: rgb(16, 16, 15);
+}
+.L2{
+    width: 471px;
+    height: 112px;
+   /* background:purple ;*/
+    margin-left: 48px;
+    position: absolute;
+    margin-top: 143px;
+
+}
+.l1{
+    width: 471px;
+    height: 52px;
+    padding-left: 9px;
+    box-sizing: border-box;
+    padding-top: 20px;
+    background: #f6f6f6
+}
+.l1 a{
+    font-size: 16px;
+    margin-left: 33px
+
+}
+.l2{
+    width: 471px;
+    height: 52px;
+    /*background: red;*/
+    margin-top:8px ;
+    box-sizing: border-box;
+    padding-top: 20px; 
+    background: #f6f6f6
+}
+.l2 a{
+    font-size: 16px;
+    margin-left: 41px
+}
+.L3{
+    width: 471px;
+    height: 79px;
+    /*background: burlywood;*/
+    position: absolute;
+    margin-left: 48px;
+    margin-top: 268px;
+    display: flex;
+}
+.l3{
+    width: 146px;
+    height: 48px;
+   /* background:brown ;*/
+    margin-top: 31px;
+}
+.l3 button{
+    
+    font-size: 22px;
+    height: 48px;
+    background: black;
+    color: #fff;
+    font-family: sans-serif;
+}
+.l4{
+    width: 183px;
+    height: 48px;
+   /* background:yellow;*/
+    margin-top: 31px;
+    margin-left: 24px;
+    background: #f6f6f6
+
+}
+.l4 a{
+    margin-left: 22px;
+    padding-top: 16px;
+    position: absolute;
+    font-size: 20px;
+   /* color: black;*/
+    font-family:Arial, Helvetica, sans-serif ;
+   
+}
+.third{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://www.uber-assets.com/image/upload/v1613106985/assets/0e/47aa71-35cb-459a-a975-78c61ea300e2/original/HP-U4B-NYC-bkg.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+    position: absolute;
+}
+.main3{
+    width: 1135px;
+    height: 172px ;
+    
+    margin-left: 68px;
+    margin-top: 68px;
+}
+.h1{
+    width: 744px;
+    height:44px;
+}
+.h1 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    text-align: left;
+    line-height: 44px;
+    letter-spacing: normal;
+}
+.h2{
+    width: 744px;
+    height: 24px;
+    margin-top: 24px;
+}
+.h2 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: normal;
+    line-height: 24px;
+}
+.h3{
+    width: 74px;
+    height: 60px;
+    margin-top: 20px;
+}
+.h3 button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: start;
+    background: black;
+    color: #fff;
+    width: 80px;
+    height: 58px;
+}
+.for{
+    width: 100%;
+    height: 1020px;
+   /* background: rgb(224, 7, 7);*/
+}
+.f1{
+    width: 1135px;
+    height: 515px;
+    /*background: magenta;*/
+    margin-left: 64px;
+    margin-top: 368px;
+    position: absolute;
+}
+.f2{
+    width: 744px;
+    height: 44px;
+    /*background:yellowgreen ;*/
+    font-size: 36px;
+    line-height: 44px;
+    text-align: start;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.f3{
+    width: 549px;
+    height: 198px;
+   /* background: blue;*/
+    margin-top: 36px;
+    display: flex;
+}
+.f4{
+    width: 225px;
+    height: 198px;
+    /*background: red;*/
+   
+}
+.f5{
+    width: 324px;
+    height: 198px;
+   /* background: #f6f6f6;*/
+
+}
+.f6{
+    width: 303px;
+    height: 32px;
+    /*background:tomato ;*/
+    margin-top: 48px
+}
+.f6 a{
+    font-size: 24px;
+    font-family:  Helvetica, arial, sans-serif;
+    text-align: start;
+    line-height: 32px;
+    letter-spacing: normal;
+}
+.f7{
+    width: 303px;
+    height: 72px;
+    /*background: green;*/
+}
+.f7 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: start;
+    line-height: 24px;
+    letter-spacing: normal;
+}
+.Ar1{
+    width: 16px;
+    height: 25px;
+    /*background: yellow;*/
+    margin-left: 307px;
+    margin-top: -64px;
+}
+
+.g3{
+    width: 549px;
+    height: 198px;
+   /* background: blue;*/
+    margin-top: 36px;
+    display: flex;
+    margin-left: 584px;
+    margin-top: -197px;
+}
+.g4{
+    width: 225px;
+    height: 198px;
+    /*background: rgb(0, 255, 98);*/
+   
+}
+.g5{
+    width: 324px;
+    height: 198px;
+    /*background: #f6f6f6;*/
+}
+.g6{
+    width: 303px;
+    height: 32px;
+   /* background:rgb(223, 35, 2) ;*/
+    margin-top: 48px
+}
+.g6 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.g7{
+    width: 303px;
+    height: 72px;
+    /*background: rgb(11, 244, 11);*/
+}
+.g7 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: start;
+
+}
+.Ar2{
+    width: 16px;
+    height: 25px;
+    /*background: rgb(180, 180, 10);*/
+    margin-left: 307px;
+    margin-top: -64px;
+}
+.j3{
+    width: 549px;
+    height: 198px;
+    /*background: blue;*/
+    margin-top: 36px;
+    display: flex;
+}
+.j4{
+    
+    width: 225px;
+    height: 198px;
+   /* background: rgb(36, 34, 34);*/
+}
+.j5{
+    width: 324px;
+    height: 198px;
+   /* background: #6d4949;*/
+}
+.j6{
+    width: 303px;
+    height: 32px;
+    /*background:rgb(25, 9, 6) ;*/
+    margin-top: 48px
+}
+.j6 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.j7{
+    width: 303px;
+    height: 72px;
+    /*background: rgb(20, 161, 20);*/
+}
+.j7 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: start;
+}
+.Ar3{
+    width: 16px;
+    height: 25px;
+    /*background: yellow;*/
+    margin-left: 307px;
+    margin-top: -64px;
+}
+.k3{
+    width: 549px;
+    height: 198px;
+   /* background: rgb(25, 25, 27);*/
+    margin-top: 36px;
+    display: flex;
+    margin-left: 585px;
+    margin-top: -197px;
+}
+.k4{
+    width: 225px;
+    height: 198px;
+    /*background: rgb(40, 83, 56);*/
+}
+.k5{
+    width: 324px;
+    height: 198px;
+    /*background: #be4a4a;*/
+}
+.k6{
+    width: 303px;
+    height: 32px;
+   /* background:rgb(239, 231, 231) ;*/
+    margin-top: 48px
+}
+.k6 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.k7{
+    width: 303px;
+    height: 72px;
+   /* background: rgb(246, 194, 8);*/
+}
+.k7 a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: normal;
+    text-align: start;
+}
+.Ar4{
+    width: 16px;
+    height: 25px;
+    /*background: yellow;*/
+    margin-left: 307px;
+    margin-top: -64px;
+}
+.five{
+    width: 100%;
+    height: 766px;
+   /* background: rebeccapurple;*/
+    
+}
+.fivemain{
+    width: 1135px;
+    height: 638px;
+   /* background: green;*/
+    margin-left: 68px;
+    margin-top: 64px;
+}
+.fv1{
+    width: 744px;
+    height: 44px;
+   /* background: red;*/
+    font-size: 36px;
+    line-height: 44px;
+    text-align: start;
+    letter-spacing: normal;
+}
+
+.fv2{
+    width: 549px;
+    height: 366px;
+    /*background: #f6f6f6;*/
+    margin-top: 36px;
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_824,h_550/v1613520218/assets/3e/e98625-31e6-4536-8646-976a1ee3f210/original/Safety_Home_Img2x.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.fv3{
+    width: 549px;
+    height: 366px;
+    /*background: #b77171;*/
+    margin-left: 586px;
+    margin-top: -364px;
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_824,h_550/v1613520285/assets/c2/91ea9c-90d7-4c36-a740-d7844536694e/original/Cities_Home_Img2x.png);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+}
+.fv4{
+    width: 549px;
+    height: 170px;
+   /* background: gold;*/
+    position: absolute;
+    margin-top: 0px;
+}
+.q1{
+    width: 549px;
+    height: 24px;
+   /* background: seagreen;*/
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: start;
+
+}
+.q2{
+    width: 549px;
+    height: 72px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    /*background: skyblue;*/
+}
+.q3{
+    width: 549px;
+    height: 44px;
+   /* background:maroon;*/
+    position: absolute;
+}
+.qt{
+    width: 285px;
+    height: 32px;
+   /* background: blanchedalmond;*/
+    margin-top: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.qt1{
+    width: 160px;
+    height: 32px;
+   /* background: darkgoldenrod;*/
+    margin-left: 300px;
+    margin-top: -46px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+.fv5{
+    width: 549px;
+    height: 148px;
+ /*   background: red;*/
+    margin-left: 585px;
+    margin-top: 18px;
+}
+.qv{
+    width: 549px;
+    height: 24px;
+  /*  background: #f6f6f6;*/
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+.qv1{
+    width: 549px;
+    height: 48px;
+   /* background: #b77171;*/
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    margin-top: 12px;
+}
+.qv2{
+    width: 549px;
+    height: 44px;
+   /* background: blue;*/
+    margin-top: 16px;
+    position: absolute;
+}.vq1{
+    width: 100px;
+    height: 32px;
+    /*background: greenyellow;*/
+    margin-top: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+}
+.six{
+    width: 100%;
+    height: 320px;
+}
+.six1{
+    width: 1135px;
+    height: 192px;
+    margin-left: 64px;
+    transform: translateY(64px);
+    display: flex;
+}
+.sx2{
+    width: 354px;
+    height: 192px;
+    background: white;
+    
+}
+.xs1{
+    width: 24px;
+    height:24px;
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_36,h_36/v1542256135/assets/dd/c53d7b-8921-4dc7-93f4-45fb59f4ffb9/original/person-multiple-outlined.svg);
+}
+.xs2{
+    width: 354px;
+    height: 24px;
+  /*  background: rgb(23, 21, 21);*/
+    margin-top: 20px;
+    
+}
+.xs2 a{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+}
+.xs3{
+    width: 324px;
+    height: 48px;
+   /* background: grey;*/
+    margin-top: 20px;
+}
+.xs3 a{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: sans-serif;
+}
+.xs4{
+    width: 324px;
+    height: 44px;
+    margin-top: 12px;
+    position: fixed;
+}
+
+.xs5{
+    width: 170px;
+    height: 32px;
+    margin-top: 11px;
+}
+.xs5 a{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.sx3{
+    width: 354px;
+    height: 192px;
+    margin-left: 36px;
+}
+.xa1{width: 24px;
+    height:24px;
+    background-image: url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_36,h_36/v1542254244/assets/eb/68c631-5041-4eeb-9114-80048a326782/original/document-outlined.svg);
+
+}
+.xa2{width: 354px;
+    height: 24px;
+    /*background: rgb(23, 21, 21);*/
+    margin-top: 20px;
+
+}
+.xa2 a{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+}
+.xa3{
+    width: 337px;
+    height: 48px;
+    margin-top: 20px;
+}
+.xa3 a{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: sans-serif;
+}
+.xa4{
+    width: 324px;
+    height: 44px;
+    margin-top: 12px;
+    position: fixed;
+}
+.xa5{
+    width: 170px;
+    height: 32px;
+    background: rgb(250, 245, 245);
+    margin-top: 11px;
+}
+.xa5 a{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.sx4{
+    width: 354px;
+    height: 192px;
+    margin-left: 36px;
+
+}
+.xb1{
+    width: 24px;
+    height:24px;
+    background-image:url(https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,w_36,h_36/v1542255370/assets/64/58118a-0ece-4f80-93ee-8041b53593d5/original/home-outlined.svg);
+}
+.xb2{
+    width: 354px;
+    height: 24px;
+    margin-top: 20px;
+}
+.xb2 a{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: sans-serif;
+    text-align: start;
+    letter-spacing: normal;
+}
+.xb3{
+    width: 324px;
+    height: 48px;
+    margin-top: 20px;
+}
+.xb3 a{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: start;
+    letter-spacing: normal;
+    font-family: sans-serif;
+}
+.xb4{
+    width: 324px;
+    height: 44px;
+    margin-top: 12px;
+    position: fixed;
+}
+.xb5{
+    width: 170px;
+    height: 32px;
+    background: rgb(250, 245, 245);
+    margin-top: 11px;
+}
+.xb5 a{
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.seven{
+    width: 100%;
+    height: 408px;
+    padding: 1px;
+}
+.sv1{
+    width: 1135px;
+    height: 280px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+.ti{
+    width: 744px;
+    height: 44px;
+    font-family: sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+
+}
+.ti1{
+    width: 547px;
+    height: 198px;
+    margin-left: 36px;
+    margin-top: 32px;
+}
+.it1{
+    width: 232px;
+    height: 197px;
+    background-image: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_225,h_225/v1618459302/assets/8e/cbcd2e-e7f1-4bd1-ae4e-5343b99ff22f/original/Driver-App-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.it2{
+    width: 284px;
+    height: 197px;
+    margin-left: 237px;
+    margin-top: -196px;
+    position: absolute;
+}
+.itm{
+   
+    width: 282px;
+    height: 40px;
+    margin-top: 73px;
+}
+.itm a{
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+
+}
+.it3{
+    width: 18px;
+    height:25px ;
+    margin-left: 528px;
+    margin-top: -115px
+}
+.ti2{
+    width: 547px;
+    height: 198px;
+    margin-left: 588px;
+    margin-top: -197px
+}
+.iy1{
+    width: 232px;
+    height: 197px;
+    background: url(https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_225,h_225/v1618459257/assets/13/6bfdbd-cdb6-4221-92c1-cab1feaa39f3/original/Rider-App-logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.iy2{
+    width: 284px;
+    height: 197px;
+    margin-left: 237px;
+    margin-top: -196px;
+    position: absolute;
+}
+.iym{
+    width: 282px;
+    height: 40px;
+    margin-top: 73px;
+}
+.iym a{
+    font-family: sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+}
+.eight{
+    width: 100%;
+    height: 213px;
+    
+
+}
+.e1{
+    width: 1135px;
+    height: 85px;
+    
+    margin-top: 64px ;
+    margin-left:64px ;
+    display: flex;
+
+}
+.e2{
+    width: 549px;
+    height: 85px;
+    
+}
+.e3{
+    width: 549px;
+    height: 85px;
+    margin-left: 12px;
+}
+.e4{
+    width: 329px;
+    height: 44px;
+}
+.e4 a{
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 44px;
+}
+.arow{
+    height: 36px;
+    width: 36px;
+    margin-left: 512px;
+    margin-top: -42px;
+    font-size: xx-large;
+}
+.end{
+    width: 100%;
+    height: 865px;
+    background: black;
+    position: absolute;
+}
+.ed1{
+    width: 1135px;
+    height: 587px;
+  
+    margin-left: 64px;
+    margin-top: 64px
+}
+.ed2{
+    width: 744px;
+    height: 112px;
+   /* background: #fff;*/
+   
+}
+.ed3{
+    width: 120px;
+    height: 36px;
+    /*background: #83093e;*/
+    margin-top: 32px;
+    font-size: xx-large;
+    font-family: sans-serif;
+    line-height: 100px;
+}
+.ed4{
+    width: 774px;
+    height: 65px;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+}
+.boxend{
+width: 1135px;
+height: 332px;
+display: flex;
+}
+.box{
+    width: 256px;
+    height: 332px;
+   /* background: #a9bcb1;*/
+    color: #f7f2ee;
+
+}
+.box1{
+    width: 256px;
+    height: 332px;
+   margin-left: 36px;
+   color: #f6f6f6;
+}
+.sb1{
+    width: 81px;
+    height: 44px;
+   
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+.sb2{
+   width: 58px;
+    height: 20px;
+   /* background: #5833dd;*/
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb3{
+    width: 85px;
+    height: 20px;
+   /* background: blue;*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb4{
+    width: 69px;
+    height: 20px;
+   /* background: #e16a09;*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb5{
+    width: 58px;
+    height: 20px;
+    /*background: rgb(9, 9, 9);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb6{
+    width: 28px;
+    height: 20px;
+   /* background: blue;*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb7{
+    width: 49px;
+    height: 20px;
+   /* background: rgb(199, 34, 4);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb8{
+    width: 12px;
+    height: 20px;
+   /* background: rgb(160, 8, 150);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb9{
+    width: 63px;
+    height: 20px;
+   /* background: rgb(219, 212, 9);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box2{
+    width: 256px;
+    height: 332px;
+   /* background: #a9bcb1;*/
+   margin-left: 36px;
+   color: #fff;
+}
+.sb11{
+    width: 76px;
+    height: 44px;
+  /*  background: blue;*/
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+   
+}
+.sb12{
+    width: 28px;
+    height: 20px;
+   /* background: rgb(217, 217, 234);*/
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.sb13{
+    width: 33px;
+    height: 20px;
+    /*background: rgb(8, 8, 8);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb14{
+    width: 44px;
+    height: 20px;
+  /* background: rgb(24, 163, 54);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb15{
+    width: 21px;
+    height: 20px;
+  /*  background: rgb(255, 0, 30);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb16{
+    width: 113px;
+    height: 20px;
+   /* background: blue;*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb17{
+    width: 150px;
+    height: 44px;
+   /* background: rgb(220, 112, 24);*/
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    
+}
+.sb18{
+    width: 41px;
+    height: 20px;
+    /*background: rgb(237, 9, 62);*/
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb19{
+    width: 145px;
+    height: 32px;
+   /* background: rgb(253 7 7);*/
+    margin-top: 36px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.box3{
+    width: 256px;
+    height: 332px;
+   /* background: #a9bcb1;*/
+   margin-left: 36px;
+   color: #fff;
+}
+.sb20{
+    width: 51px;
+    height: 24px;
+    /*background: #1cb15a;*/
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+
+}
+.sb21{
+    width: 51px;
+    height: 20px;
+   /* background: rgb(253 7 7);*/
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.sb22{
+    width: 32px;
+    height: 20px;
+   /* background: rgb(87, 202, 10);*/
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+.social{
+    width: 1135px;
+    height: 72px;
+    /*background: #f6f6f6;*/
+    position: absolute;
+    color: #fff;
+}
+.media{
+    width: 256px;
+    height: 48px;
+    /*background: #1cb15a;*/
+    margin-top: 24px;
+    display: flex;
+}
+.facebook{
+    width: 48px;
+    height: 48px;
+  /*  background: red;*/
+}
+.facebook i{
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 20px;
+    margin-top: 12px
+}
+.twitter{
+    width: 48px;
+    height: 48px;
+   /* background: #2511a9;*/
+    margin-left: 3px;
+}
+.twitter i{
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 20px;
+    margin-top: 12px
+}
+.youtube{
+    width: 48px;
+    height: 48px;
+  /*  background: #940470;*/
+    margin-left: 3px;
+}
+.youtube i{
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 20px;
+    margin-top: 12px
+}
+.in{
+    width: 48px;
+    height: 48px;
+   /* background: #cac8d3;*/
+    margin-left: 3px;
+}
+.in i{
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 20px;
+    margin-top: 12px
+}
+.insta{
+    width: 48px;
+    height: 48px;
+  /*  background: #ea5408;*/
+    margin-left: 3px;
+}
+.insta i{
+    font-size: 16px;
+    margin-left: 16px;
+    line-height: 20px;
+    margin-top: 12px
+}
+.icon{
+    width: 549px;
+    height: 72px;
+   /* background: #2511a9;*/
+    margin-top: -72px;
+    margin-left: 257px;
+    display: flex;
+}
+.icon2{
+    width: 188px;
+    height: 35px;
+    /*background: maroon;*/
+    margin-top: 33px;
+    margin-left: 23px;
+}
+.icon3{
+    width: 100px;
+    height: 33px;
+    /*background: #1cb15a;*/
+}
+.icon3 a{
+font-family: sans-serif;
+font-size: 16px;
+}
+.icon4{
+    width: 88px;
+    height: 33px;
+  /*  background: #ba8105;*/
+    margin-left: 100px;
+    margin-top: -33px;
+}
+.icon4 a{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
+.playend{
+    width: 256px;
+    height: 48px;
+   /* background: #d2b406;*/
+    margin-top: -48px;
+    margin-left: 857px;
+}
+.icon5{
+    width: 122px;
+    height: 40px;
+  /*  background: #1cb15a;*/
+    background-image: url(https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-google-4d63c31a3e.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.icon6{
+    width: 122px;
+    height: 44px;
+  /*  background: #1cb15a;*/
+    margin-left: 131px;
+    margin-top: -39px;
+    background-image: url(https://d1a3f4spazzrp4.cloudfront.net/uber-com/1.3.8/d1a3f4spazzrp4.cloudfront.net/illustrations/app-store-apple-f1f919205b.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+.bigend{
+    width: 1132px;
+    height: 40px;
+  /*  background: #83093e;*/
+    margin-left: 64px;
+    margin-top: 24px;
+    color: #fff;
+}
+.bigend1{
+    width: 256px;
+    height: 20px;
+   /* background: #08aa49;*/
+}
+.bigend a{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+.bigend2{
+    width: 256px;
+    height: 20px;
+   /* background: #f1ebee;*/
+    margin-top: -20px;
+    margin-left: 875px;
+}
+.bigend2 a{
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+}
+
